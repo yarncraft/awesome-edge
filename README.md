@@ -32,7 +32,7 @@
     - [Distributed Filesystems (Object Store)](#distributed-filesystems-object-store)
     - [Time Series Database](#time-series-database)
     - [Document Database (NoSQL)](#document-database-nosql)
-    - [Key-Value Database](#key-value-database)
+    - [Persistent Key Value Storage](#persistent-kv-storage)
     - [Relational Database](#relational-database)
     - [In Memory Database](#in-memory-database)
     - [Cloud (Native) Database](#cloud-native-database)
@@ -230,21 +230,15 @@
 * [Couchbase](https://www.couchbase.com/) - The Modern Database for Enterprise Applications
 * [Apache Cassandra](https://cassandra.apache.org/_/index.html) - Manage massive amounts of data, fast, without losing sleep
 
-### Key-Value Database
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
+### Persistent KV Storage
+* [TiKV](https://tikv.org/) - a highly scalable, low latency, and easy to use key-value database.
+* [BadgerDB](https://dgraph.io/blog/post/badger/) - an embeddable, persistent and fast key-value (KV) database written in pure Go
+* [FoundationDB](https://foundationdb.com/) - scalable distributed database
+* [RocksDB](http://rocksdb.org/) - embeddable persistent key-value store for fast storage based on LevelDB.
 
 ### Relational Database
 * [Citus](https://github.com/citusdata/citus) - Distributed PostgreSQL
 * [Cockroach](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
-* [FoundationDB](https://foundationdb.com/) - scalable distributed database
 * [TiDB](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database
 * [yugabyteDB](https://github.com/YugaByte/yugabyte-db) - open source, high-performance, distributed SQL database compatible with PostgreSQL
 * [MariaDB](https://mariadb.org/) - enhanced, drop-in replacement for MySQL
@@ -254,8 +248,7 @@
 * [VoltDB](https://www.voltdb.com/) - claims to be fastest in-memory database.
 * [BerkeleyDB](https://www.oracle.com/database/berkeley-db/index.html) - a software library that provides a high-performance embedded database for key/value data.
 * [LevelDB](https://github.com/google/leveldb) - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
-* [RocksDB](http://rocksdb.org/) - embeddable persistent key-value store for fast storage based on LevelDB.
-
+* [Memcached](https://www.memcached.org/) - high-performance, distributed memory object caching system
 
 ### Cloud (Native) Database
 * [Google Spanner](https://research.google.com/archive/spanner.html) - globally distributed semi-relational database.
