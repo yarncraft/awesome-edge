@@ -266,19 +266,12 @@
 # _Stream Processing_
 
 ### Cloud
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-
+* [AWS Kinesis](https://aws.amazon.com/kinesis/) - Easily collect, process, and analyze video and data streams in real time
+* [GCP Dataflow](https://cloud.google.com/dataflow/) - Unified stream and batch data processing that's serverless, fast, and cost-effective.
+* [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) - Serverless real-time analytics, from the cloud to the edge
+* [KSQL DB](https://ksqldb.io/) - KSQL DB on Confluent Cloud
 
 ### On-Prem
-
 * [Faust](https://github.com/robinhood/faust) - stream processing and event processing in Python
 * [Siddhi](https://github.com/siddhi-io/siddhi) - stream Processing and Complex Event Processing Engine
 * [KSQL](https://github.com/confluentinc/ksql) - The database purpose-built for stream processing applications.
