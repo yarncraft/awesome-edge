@@ -4,7 +4,6 @@
   <i> A qualitative compilation of production-ready edge computing projects with a focus on IoT based Data Engineering </i>
 </div>
 
-
 ## _Table of Contents_
 
 - [_High-Level Programming Languages_](#high-level-programming-languages)
@@ -46,6 +45,16 @@
 
 ---
 
+### _Projects in the curated list are filtered based on the following conditions:_
+* High Quality 
+* Production Ready
+* Well Documented
+* Well Maintained
+* Cloud Ready
+* Scalable
+
+
+---
 
 # _High-Level Programming Languages_
 <div align="center">  
@@ -198,15 +207,10 @@
 # _Data Storage_
 
 ### Distributed Filesystems (Object Store)
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
-* []() -
+* [Rook](https://rook.io/) - Open-Source, Cloud-Native Storage for Kubernetes
+* [Minio](https://min.io/) - Object Storage for the Era of the Hybrid Cloud
+* [Longhorn](https://longhorn.io/) - Cloud native distributed block storage for Kubernetes
+* [OpenEBS](https://openebs.io/) - OpenEBS builds on Kubernetes to enable Stateful applications to easily access Persistent Volumes
 
 ### Time Series Database
 * [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, cost-effective monitoring solution and time series database
@@ -243,6 +247,7 @@
 * [yugabyteDB](https://github.com/YugaByte/yugabyte-db) - open source, high-performance, distributed SQL database compatible with PostgreSQL
 * [MariaDB](https://mariadb.org/) - enhanced, drop-in replacement for MySQL
 * [Apache Calcite](https://calcite.apache.org/) - the foundation for your next high-performance database
+* [Vitess](https://vitess.io/) - A database clustering system for horizontal scaling of MySQL
 
 ### In Memory Database
 * [VoltDB](https://www.voltdb.com/) - claims to be fastest in-memory database.
@@ -250,12 +255,13 @@
 * [LevelDB](https://github.com/google/leveldb) - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 * [Memcached](https://www.memcached.org/) - high-performance, distributed memory object caching system
 
-### Cloud (Native) Database
+### Cloud Managed Database
 * [Google Spanner](https://research.google.com/archive/spanner.html) - globally distributed semi-relational database.
 * [Google BigQuery](https://research.google.com/pubs/pub36632.html) - framework for interactive analysis, implementation of Dremel
 * [Google Cloud SQL](https://cloud.google.com/sql/docs/) - MySQL databases in Google's cloud
-* [Rook](https://rook.io/) - Open-Source, Cloud-Native Storage for Kubernetes
-* [Vitess](https://vitess.io/) - A database clustering system for horizontal scaling of MySQL
+* [Azure SQL](https://azure.microsoft.com/en-us/products/azure-sql/database/) - Build apps that scale with managed and intelligent SQL in the cloud
+* [Azure CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Fast NoSQL database with open APIs for any scale
+* [Azure PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/) - Fully managed, intelligent, and scalable PostgreSQL
 
 # _Stream Processing_
 
@@ -308,3 +314,4 @@
 ### Distributed Orchestration
 * [Serf](https://www.serf.io/) - decentralized solution for service discovery and orchestration
 * [etcd](https://etcd.io/) - a distributed, reliable key-value store for the most critical data of a distributed system
+
