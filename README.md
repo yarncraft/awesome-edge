@@ -67,13 +67,8 @@
 </div>
 
 # _Major IoT Clouds_
-* [Google Cloud IoT](https://cloud.google.com/solutions/iot/) - Google Cloud Platform IoT solutions.
-* [IBM Watson](http://www.ibm.com/watson/) - IBM cloud for the IoT.
 * [AWS IoT](https://aws.amazon.com/iot/) - Amazon cloud for the IoT.
-* [Oracle IoT Cloud](https://cloud.oracle.com/iot) - ORACLE Cloud for the Internet of Things.
 * [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Microsoft cloud for the IoT.
-* [Bosch IoT Suite](https://developer.bosch-iot-suite.com/capabilities-bosch-iot-suite/) - Highly scalable cloud infrastructure based on Cloud Foundry.
-* [SAP HANA](https://saphanajourney.com/) - SAP cloud for the Internet of Things.
 
 # _Major Edge Projects_
 * [Akraino](https://www.lfedge.org/projects/akraino) - a set of open infrastructures and application blueprints for the edge
@@ -300,7 +295,6 @@
 * [Lightbend Lagom](https://www.lagomframework.com/) -  opinionated microservices framework
 * [GoKit](https://gokit.io/) - A toolkit for microservices
 * [Goa](https://goa.design/) - Goa provides a holistic approach for developing remote APIs and microservices in Go.
-* [Garden](https://garden.io/) - Garden is an automation platform for Kubernetes development and testing
 * [Micro](https://micro.mu/) - Micro is a cloud platform for API development
 * [Dapr](https://dapr.io/) - Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.
 
