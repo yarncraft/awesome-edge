@@ -9,13 +9,13 @@
 - [_High-Level Programming Languages_](#high-level-programming-languages)
 - [_Major IoT Clouds_](#major-iot-clouds)
 - [_Major Edge OSS Projects_](#major-edge-oss-projects)
-- [_Edge Messaging Protocols_](#edge-messaging-protocols)
+- [_Edge Messaging](#edge-messaging)
     - [Brokerless](#brokerless)
     - [Websockets](#websockets)
     - [MQTT](#mqtt)
     - [Industrial](#industrial)
 - [_Message Serialization_](#message-serialization)
-- [_Data Streaming_](#data-streaming)
+- [_Messaging & Data Streaming_](#messaging-and-data-streaming)
     - [Cloud Managed](#cloud-managed)
     - [On-Prem](#on-prem)
 - [_Stream Processing_](#stream-processing)
@@ -78,7 +78,7 @@
 
 
 
-# _Edge Messaging Protocols_
+# _Edge Messaging_
 
 ### Brokerless
 * [ZeroMQ Overview](https://zeromq.org/get-started/) - An open-source universal messaging library
@@ -95,22 +95,20 @@
 ### MQTT
 * [Nats.io](https://nats.io/) - Connective Technology for Adaptive Edge & Distributed Systems
 * [Mosquitto](https://github.com/eclipse/mosquitto) - An Open Source MQTT v3.1/v3.1.1 Broker.
-* [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.
+* [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.\
 * [Waterstream](https://waterstream.io/) - MQTT broker leveraging Apache Kafka as its own storage and distribution engine.
 * [NanoMQ](https://github.com/nanomq/nanomq) - A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.
-
-### AMQP
-* [Apache ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) - The Next Generation Message Broker by ActiveMQ, AMQP 1.0 is a natively supported protocol.
-* [Apache Qpid Java Broker](http://qpid.apache.org/components/java-broker/) - A pure-Java AMQP message broker.
-* [Solace](http://dev.solace.com/tech/amqp/) - Messaging Platform that supports AMQP 1.0
-* [RabbitMQ](https://www.rabbitmq.com) with [AMQP 1.0 plugin](https://github.com/rabbitmq/rabbitmq-amqp1.0).
 
 ### Industrial
 * [Node CoAP](https://github.com/mcollina/node-coap) - A client and server library for CoAP modeled after the http module.
 * [Rust CoAP](https://github.com/covertness/coap-rs) - A Constrained Application Protocol (CoAP) library implemented in Rust.
 * [OPC-UA](https://opcfoundation.org/) - Interoperability standard for the secure and reliable exchange of data
 * [ModBus](https://modbus.org/) - A data communications protocol for use with Modicon PLC's
+
+### Decentralized
 * [Matrix](https://matrix.org/) - An open network for secure, decentralized communication
+
+
 
 # _Message Serialization_
 * [Apache Avro](https://avro.apache.org/docs/current/) - Apache Avro™ is a data serialization system
@@ -122,7 +120,7 @@
 * [FlatBuffers](https://google.github.io/flatbuffers/) - an efficient cross platform serialization library
 * [Protocol Buffer](https://developers.google.com/protocol-buffers) - a language-neutral, platform-neutral extensible mechanism for serializing structured data
 
-# _Data Streaming_
+# _Messaging and Data Streaming_
 
 ### Cloud Managed
 * [Azure Event Hub](https://azure.microsoft.com/en-us/products/event-hubs) - a fully managed, real-time data ingestion service that’s simple, trusted, and scalable
@@ -142,6 +140,10 @@
 * [redpanda](https://vectorized.io/redpanda) - A Kafka® replacement for mission critical systems; 10x faster. Written in C++.
 * [Fluentd](http://www.fluentd.org) - tool to collect events and logs.
 * [Kestrel](https://github.com/papertrail/kestrel) - distributed message queue system.
+* [Apache ActiveMQ Artemis](https://activemq.apache.org/components/artemis/) - The Next Generation Message Broker by ActiveMQ, AMQP 1.0 is a natively supported protocol.
+* [Apache Qpid Java Broker](http://qpid.apache.org/components/java-broker/) - A pure-Java AMQP message broker.
+* [Solace](http://dev.solace.com/tech/amqp/) - Messaging Platform that supports AMQP 1.0
+* [RabbitMQ](https://www.rabbitmq.com) with [AMQP 1.0 plugin](https://github.com/rabbitmq/rabbitmq-amqp1.0).
 
 
 
@@ -170,7 +172,6 @@
 * [H2O](https://www.h2o.ai/products/h2o/) - The #1 open-source machine learning platform for the enterprise
 * [Apache Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
 * [Apache Spark](https://spark.apache.org/) - Apache Spark™ is a unified analytics engine for large-scale data processing.
-
 
 
 
@@ -225,6 +226,7 @@
 * [BerkeleyDB](https://www.oracle.com/database/berkeley-db/index.html) - a software library that provides a high-performance embedded database for key/value data.
 * [LevelDB](https://github.com/google/leveldb) - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 * [Memcached](https://www.memcached.org/) - high-performance, distributed memory object caching system
+
 
 
 # _Industrial IoT with Kubernetes_
