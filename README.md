@@ -15,19 +15,19 @@
     - [MQTT](#mqtt)
     - [Industrial](#industrial)
 - [_Message Serialization_](#message-serialization)
-- [_Messaging Brokers_](#messaging-brokers)
-    - [Cloud](#cloud)
+- [_Data Streaming_](#data-streaming)
+    - [Cloud Managed](#cloud-managed)
     - [On-Prem](#on-prem)
+- [_Stream Processing_](#stream-processing)
+    - [Cloud Managed](#cloud-managed-1)
+    - [On-Prem](#on-prem-1)
 - [_Databases_](#databases)
-    - [Cloud Managed Database](#cloud-managed-database)
+    - [Cloud Managed](#cloud-managed-2)
     - [Time Series Database](#time-series-database)
     - [Document Database (NoSQL)](#document-database-nosql)
     - [Persistent Key Value DB](#persistent-kv-db)
     - [Relational Database](#relational-database)
     - [In Memory Database](#in-memory-database)
-- [_Stream Processing_](#stream-processing)
-    - [Cloud](#cloud-1)
-    - [On-Prem](#on-prem-1)
 - [_Batch Processing / Analytics_](#batch-processing--analytics)
 - [_Industrial IoT with Kubernetes_](#industrial-iot-with-kubernetes)
     - [Kubernetes Distributions for Lightweight Edge](#kubernetes-distributions-for-edge)
@@ -62,8 +62,8 @@
 </div>
 
 # _Major IoT Clouds_
-* [AWS IoT](https://aws.amazon.com/iot/) - Amazon cloud for the IoT.
-* [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Microsoft cloud for the IoT.
+* [AWS IoT](https://aws.amazon.com/iot/) - AWS IoT PaaS
+* [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Microsoft IoT PaaS
 
 # _Major Edge OSS Projects_
 * [Akraino](https://www.lfedge.org/projects/akraino) - a set of open infrastructures and application blueprints for the edge
@@ -122,13 +122,17 @@
 * [FlatBuffers](https://google.github.io/flatbuffers/) - an efficient cross platform serialization library
 * [Protocol Buffer](https://developers.google.com/protocol-buffers) - a language-neutral, platform-neutral extensible mechanism for serializing structured data
 
-# _Messaging Brokers_
+# _Data Streaming_
 
-### Cloud
+### Cloud Managed
+* [Azure Event Hub](https://azure.microsoft.com/en-us/products/event-hubs) - a fully managed, real-time data ingestion service that’s simple, trusted, and scalable
+* [Azure Managed Kafka](https://azure.microsoft.com/en-us/products/hdinsight/) - Azure HDInsight, a customizable, enterprise-grade service for open-source analytics. 
+* [Azure Queue Storage](https://azure.microsoft.com/nl-nl/products/storage/queues) -  a service for storing large numbers of messages
+* [Azure Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) - a highly scalable, serverless event broker that you can use to integrate applications using events.
 * [Confluent Cloud](https://www.confluent.io/confluent-cloud/) - Apache Kafka as a Service
-* [IoT Hub](https://www.confluent.io/confluent-cloud/) - Apache Kafka as a Service
-* [Event Hub](https://www.confluent.io/confluent-cloud/) - Apache Kafka as a Service
-* [Azure Managed Kafka](https://www.confluent.io/confluent-cloud/) - Apache Kafka as a Service
+* [AWS MSK](https://aws.amazon.com/msk/) - Securely stream data with a fully managed, highly available Apache Kafka service
+* [AWS SQS](https://aws.amazon.com/sqs/) - Fully managed message queuing for microservices, distributed systems, and serverless applications
+* [AWS Kinesis](https://aws.amazon.com/kinesis/data-streams/) - Easily stream data at any scale
 
 ### On-Prem
 * [Strimzi](https://strimzi.io/) - Cloud Native Apache Kafka
@@ -141,10 +145,38 @@
 
 
 
+# _Stream Processing_
+
+### Cloud Managed
+* [AWS Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) - Gain actionable insights from streaming data with serverless, fully managed Apache Flink
+* [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) - Serverless real-time analytics, from the cloud to the edge
+* [KSQL DB](https://ksqldb.io/) - KSQL DB on Confluent Cloud
+
+### On-Prem
+* [Faust](https://github.com/robinhood/faust) - stream processing and event processing in Python
+* [Siddhi](https://github.com/siddhi-io/siddhi) - stream Processing and Complex Event Processing Engine
+* [KSQL](https://github.com/confluentinc/ksql) - The database purpose-built for stream processing applications.
+* [Benthos](https://github.com/Jeffail/benthos) - Declarative stream processing for mundane tasks and data engineering
+* [Go Streams](https://github.com/reugn/go-streams) - A lightweight stream processing library for Go
+* [Flogo](https://github.com/project-flogo/stream) - Elegant stream processing pipeline written entirely in Golang
+* [Apache Heron](https://github.com/apache/incubator-heron) - A realtime, distributed, fault-tolerant stream processing engine
+* [Apache Beam](https://beam.apache.org/) - Implement batch and streaming data processing jobs that run on any execution engine.
+* [Apache Flink](https://flink.apache.org/) - Stateful Computations over Data Streams
+* [Apache Samza](https://samza.apache.org/) - A distributed stream processing framework
+
+# _Batch Processing / Analytics_
+* [Databricks](https://databricks.com/) - All your data, analytics and AI on one Lakehouse platform
+* [Apache Mahout](https://mahout.apache.org/) - For Creating Scalable Performant Machine Learning Applications
+* [H2O](https://www.h2o.ai/products/h2o/) - The #1 open-source machine learning platform for the enterprise
+* [Apache Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
+* [Apache Spark](https://spark.apache.org/) - Apache Spark™ is a unified analytics engine for large-scale data processing.
+
+
+
 
 # _Databases_
 
-### Cloud Managed Database
+## Cloud Managed
 * [Azure SQL](https://azure.microsoft.com/en-us/products/azure-sql/database/) - Build apps that scale with managed and intelligent SQL in the cloud
 * [Azure CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Fast NoSQL / Graph / Relational database with open APIs for planet scale
 * [Azure PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/) - Fully managed, intelligent, and scalable PostgreSQL
@@ -156,6 +188,8 @@
 * [AWS Neptune]() - Build applications that work with highly connected datasets using a fast, reliable graph database service.
 * [AWS Ledger]() - Provide transparent, immutable, cryptographically verifiable transaction logs with a fully managed ledger database service.
 * [AWS Timestream]() - Provide transparent, immutable, cryptographically verifiable transaction logs with a fully managed ledger database service.
+
+## On-Prem
 
 ### Time Series Database
 * [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics
@@ -191,35 +225,6 @@
 * [BerkeleyDB](https://www.oracle.com/database/berkeley-db/index.html) - a software library that provides a high-performance embedded database for key/value data.
 * [LevelDB](https://github.com/google/leveldb) - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 * [Memcached](https://www.memcached.org/) - high-performance, distributed memory object caching system
-
-
-
-# _Stream Processing_
-
-### Cloud
-* [AWS Kinesis](https://aws.amazon.com/kinesis/) - Easily collect, process, and analyze video and data streams in real time
-* [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) - Serverless real-time analytics, from the cloud to the edge
-* [KSQL DB](https://ksqldb.io/) - KSQL DB on Confluent Cloud
-
-### On-Prem
-* [Faust](https://github.com/robinhood/faust) - stream processing and event processing in Python
-* [Siddhi](https://github.com/siddhi-io/siddhi) - stream Processing and Complex Event Processing Engine
-* [KSQL](https://github.com/confluentinc/ksql) - The database purpose-built for stream processing applications.
-* [Benthos](https://github.com/Jeffail/benthos) - Declarative stream processing for mundane tasks and data engineering
-* [Go Streams](https://github.com/reugn/go-streams) - A lightweight stream processing library for Go
-* [Flogo](https://github.com/project-flogo/stream) - Elegant stream processing pipeline written entirely in Golang
-* [Apache Heron](https://github.com/apache/incubator-heron) - A realtime, distributed, fault-tolerant stream processing engine
-* [Apache Beam](https://beam.apache.org/) - Implement batch and streaming data processing jobs that run on any execution engine.
-* [Apache Flink](https://flink.apache.org/) - Stateful Computations over Data Streams
-* [Apache Samza](https://samza.apache.org/) - A distributed stream processing framework
-
-# _Batch Processing / Analytics_
-* [Databricks](https://databricks.com/) - All your data, analytics and AI on one Lakehouse platform
-* [Apache Mahout](https://mahout.apache.org/) - For Creating Scalable Performant Machine Learning Applications
-* [H2O](https://www.h2o.ai/products/h2o/) - The #1 open-source machine learning platform for the enterprise
-* [Apache Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
-* [Apache Spark](https://spark.apache.org/) - Apache Spark™ is a unified analytics engine for large-scale data processing.
-
 
 
 # _Industrial IoT with Kubernetes_
