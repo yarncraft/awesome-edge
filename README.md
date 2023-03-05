@@ -9,7 +9,7 @@
 - [_High-Level Programming Languages_](#high-level-programming-languages)
 - [_Major IoT Clouds_](#major-iot-clouds)
 - [_Major Edge OSS Projects_](#major-edge-oss-projects)
-- [_Edge Messaging](#edge-messaging)
+- [_Edge Messaging_](#edge-messaging)
     - [Brokerless](#brokerless)
     - [Websockets](#websockets)
     - [MQTT](#mqtt)
@@ -277,7 +277,7 @@
 * [Longhorn](https://longhorn.io/) - Cloud native distributed block storage for Kubernetes
 * [OpenEBS](https://openebs.io/) - OpenEBS builds on Kubernetes to enable Stateful applications to easily access Persistent Volumes
 
-### Serverless Functions
+### FaaS
 * [Serverless](https://www.serverless.com/) - zero-friction serverless development
 * [Apache Camel](https://camel.apache.org/) - easily integrate various systems consuming or producing data.
 * [Apache Openwhisk](https://openwhisk.apache.org/) - Open Source Serverless Cloud Platform
