@@ -63,7 +63,7 @@
 
 # _Major IoT Clouds_
 * [AWS IoT](https://aws.amazon.com/iot/) - AWS IoT PaaS
-* [Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Microsoft IoT PaaS
+* [Azure IoT](https://azure.microsoft.com/en-us/solutions/iot/#overview) - Microsoft IoT PaaS
 
 # _Major Edge OSS Projects_
 * [Akraino](https://www.lfedge.org/projects/akraino) - a set of open infrastructures and application blueprints for the edge
