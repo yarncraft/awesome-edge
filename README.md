@@ -61,24 +61,35 @@
    <a href="https://www.scala-lang.org/" target="_blank"><img align="center" alt="Scala" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/scala.svg"></a>
 </div>
 
-# _Major IoT Clouds_
-* [AWS IoT](https://aws.amazon.com/iot/) - AWS IoT PaaS
-* [Azure IoT](https://azure.microsoft.com/en-us/solutions/iot/#overview) - Microsoft IoT PaaS
+# _IoT on Hyperscalers_
+* [AWS IoT](https://aws.amazon.com/iot/) - Unlock your IoT data and accelerate business growth
+* [Azure IoT Operations](https://azure.microsoft.com/en-us/products/iot-operations) - Build interoperable IoT solutions that transform physical operations at scale.
 
 # _Major Edge OSS Projects_
-* [Akraino](https://www.lfedge.org/projects/akraino) - a set of open infrastructures and application blueprints for the edge
-* [Edge Foundry](https://www.lfedge.org/projects/edgexfoundry/) - The Preferred Edge PnP IoT Platform
-* [Eve OS](https://www.lfedge.org/projects/eve/) - a universal, open Linux-based operating system for distributed edge computing
-* [Fledge](https://www.lfedge.org/projects/fledge/) - industrial manufacturing solutions to accelerate Industrial 4.0 adoption.
-* [Open Horizon](https://open-horizon.github.io/) - secure and robust containerized application management for IoT
-* [Baetyl](https://baetyl.io/en/) - Baetyl, extend cloud computing, data and service seamlessly to edge devices
-* [Secure Device Onboard](https://www.lfedge.org/projects/securedeviceonboard/) - An Automated “Zero-Touch” Onboarding Service
-* [Eclipse Ditto](https://github.com/eclipse/ditto) is the open-source project of Eclipse IoT that provides a ready-to-use functionality to manage the state of Digital Twins.
+* [Eclipse Ditto](https://github.com/eclipse/ditto) - the open-source project of Eclipse IoT that provides a ready-to-use functionality to manage the state of Digital Twins
+* [Eclipse Hono](https://github.com/eclipse-hono/hono) - provides uniform (remote) service interfaces for connecting large numbers of IoT devices to a (cloud) back end. 
+* [Akri](https://docs.akri.sh/) - Akri is a Kubernetes Resource Interface that lets you easily expose heterogeneous leaf devices
+* [Akraino](https://www.lfedge.org/projects/akraino) - LF Edge is an umbrella organization that establishes an open, interoperable framework for edge computing
+* [Shifu](https://shifu.dev/docs/guides/cases/connect-opcua/) - Shifu provides users with a transparent framework for full-scene device hosting and integrated software development
 
 
 
 
 # _Edge Messaging_
+
+### MQTT
+* [HiveMQ](https://github.com/hivemq) - Enterprise MQTT Platform
+* [Nats.io](https://nats.io/) - Connective Technology for Adaptive Edge & Distributed Systems
+* [Mosquitto](https://github.com/eclipse/mosquitto) - An Open Source MQTT v3.1/v3.1.1 Broker.
+* [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.
+* [Waterstream](https://waterstream.io/) - MQTT broker leveraging Apache Kafka as its own storage and distribution engine.
+* [NanoMQ](https://github.com/nanomq/nanomq) - A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.
+
+### Industrial
+* [Node CoAP](https://github.com/mcollina/node-coap) - A client and server library for CoAP modeled after the http module.
+* [Rust CoAP](https://github.com/covertness/coap-rs) - A Constrained Application Protocol (CoAP) library implemented in Rust.
+* [OPC-UA](https://opcfoundation.org/) - Interoperability standard for the secure and reliable exchange of data
+* [ModBus](https://modbus.org/) - A data communications protocol for use with Modicon PLC's
 
 ### Brokerless
 * [ZeroMQ Overview](https://zeromq.org/get-started/) - An open-source universal messaging library
@@ -91,23 +102,7 @@
 * [Tungstenite WS](https://github.com/snapview/tungstenite-rs) - Lightweight stream-based WebSocket implementation for Rust.
 * [Python Websockets](https://websockets.readthedocs.io/en/stable/) - A library for building WebSocket servers and clients in Python
 * [Autobahn.ws](https://crossbar.io/autobahn/) - Open-source real-time framework for Web, Mobile & Internet of Things.
-
-### MQTT
-* [Nats.io](https://nats.io/) - Connective Technology for Adaptive Edge & Distributed Systems
-* [Mosquitto](https://github.com/eclipse/mosquitto) - An Open Source MQTT v3.1/v3.1.1 Broker.
-* [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.\
-* [Waterstream](https://waterstream.io/) - MQTT broker leveraging Apache Kafka as its own storage and distribution engine.
-* [NanoMQ](https://github.com/nanomq/nanomq) - A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.
-
-### Industrial
-* [Node CoAP](https://github.com/mcollina/node-coap) - A client and server library for CoAP modeled after the http module.
-* [Rust CoAP](https://github.com/covertness/coap-rs) - A Constrained Application Protocol (CoAP) library implemented in Rust.
-* [OPC-UA](https://opcfoundation.org/) - Interoperability standard for the secure and reliable exchange of data
-* [ModBus](https://modbus.org/) - A data communications protocol for use with Modicon PLC's
-
-### Decentralized
-* [Matrix](https://matrix.org/) - An open network for secure, decentralized communication
-
+* [socket.io](https://socket.io/) - Bidirectional and low-latency communication for every platform
 
 
 # _Message Serialization_
@@ -119,6 +114,8 @@
 * [CBOR](https://cbor.io/) - RFC 8949 Concise Binary Object Representation
 * [FlatBuffers](https://google.github.io/flatbuffers/) - an efficient cross platform serialization library
 * [Protocol Buffer](https://developers.google.com/protocol-buffers) - a language-neutral, platform-neutral extensible mechanism for serializing structured data
+
+
 
 # _Messaging and Data Streaming_
 
@@ -231,9 +228,12 @@
 
 # _Industrial IoT with Kubernetes_
 
+### Kubernetes Hybrid
+* [Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/overview) - Azure Arc simplifies governance and management by delivering a consistent multicloud and on-premises management platform.
+* [EKS Anywhere](https://aws.amazon.com/eks/eks-anywhere/) - Create and operate Kubernetes clusters on your own infrastructure
+
 ### Kubernetes Distributions for Edge
 * [AKS Edge](https://github.com/Azure/AKS-Edge) - AKS Edge Essentials is an on-premises Kubernetes implementation running containers at scale
-* [EKS Anywhere](https://aws.amazon.com/eks/eks-anywhere/) - Create and operate Kubernetes clusters on your own infrastructure
 * [K3s](https://k3s.io/) - The certified Kubernetes distribution built for IoT & Edge computing
 * [microk8s](https://microk8s.io/) - The best Kubernetes experience for developers, DevOps, cloud and edge
 
