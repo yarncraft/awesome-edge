@@ -1,6 +1,6 @@
 <div align="center">  
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat.svg" alt="Awesome"></a>
-  <h1> Edge Computing & Internet Of Things </h1>
+  <h1> Edge Computing & Internet Of Things 🛜 </h1>
   <i> A qualitative compilation of production-ready edge computing projects with a focus on Edge-2-Cloud Data Engineering </i>
 </div>
 
@@ -211,7 +211,6 @@
 * [BerkeleyDB](https://www.oracle.com/database/berkeley-db/index.html) - a software library that provides a high-performance embedded database for key/value data.
 * [LevelDB](https://github.com/google/leveldb) - a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
 * [Memcached](https://www.memcached.org/) - high-performance, distributed memory object caching system
-
 
 
 # _Industrial IoT with Kubernetes_
