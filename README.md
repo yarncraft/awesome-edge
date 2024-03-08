@@ -6,8 +6,7 @@
 
 ## _Table of Contents_
 
-- [_High-Level Programming Languages_](#high-level-programming-languages)
-- [_Major IoT Clouds_](#major-iot-clouds)
+- [_Major IoT Clouds_](#iot-on-hyperscalers)
 - [_Major Edge OSS Projects_](#major-edge-oss-projects)
 - [_Edge Messaging_](#edge-messaging)
     - [Brokerless](#brokerless)
@@ -37,7 +36,7 @@
     - [Distributed Orchestration](#distributed-orchestration)
     - [Microservice Frameworks](#microservice-frameworks)
     - [Distributed Filesystem](#distributed-filesystem)
-    - [Serverless Functions](#serverless-functions)
+    - [FaaS](#faas)
 ---
 
 ### _Projects in the curated list are filtered based on the following conditions:_
@@ -48,18 +47,7 @@
 * Cloud Ready
 * Scalable
 
-
 ---
-
-# _High-Level Programming Languages_
-<div align="center">  
-  <a href="https://www.python.org" target="_blank"><img align="center" alt="Python" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/python.svg"></a>
-  <a href="https://www.typescriptlang.org/" target="_blank"><img align="center" alt="Typescript" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/typescript.svg"></a>
-    <a href="https://www.javascript.com/" target="_blank"><img align="center" alt="Javascript" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/javascript.svg"></a>
-  <a href="https://www.rust-lang.org/" target="_blank"><img align="center" alt="Rust" width ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/Rust.svg"></a>
-   <a href="https://golang.org/" target="_blank"><img align="center" alt="Golang" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/go.svg"></a>
-   <a href="https://www.scala-lang.org/" target="_blank"><img align="center" alt="Scala" height ="80px" src="https://github.com/yarncraft/yarncraft/raw/main/scala.svg"></a>
-</div>
 
 # _IoT on Hyperscalers_
 * [AWS IoT](https://aws.amazon.com/iot/) - Unlock your IoT data and accelerate business growth
