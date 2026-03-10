@@ -72,13 +72,13 @@
 * [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.
 * [Waterstream](https://waterstream.io/) - MQTT broker leveraging Apache Kafka as its own storage and distribution engine.
 * [NanoMQ](https://github.com/nanomq/nanomq) - A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.
+* [Narwhal](http://github.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications
 
 ### Industrial
 * [Node CoAP](https://github.com/mcollina/node-coap) - A client and server library for CoAP modeled after the http module.
 * [Rust CoAP](https://github.com/covertness/coap-rs) - A Constrained Application Protocol (CoAP) library implemented in Rust.
 * [OPC-UA](https://opcfoundation.org/) - Interoperability standard for the secure and reliable exchange of data
 * [ModBus](https://modbus.org/) - A data communications protocol for use with Modicon PLC's
-* [Narwhal](http://githuv.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications
 
 ### Brokerless
 * [ZeroMQ Overview](https://zeromq.org/get-started/) - An open-source universal messaging library
