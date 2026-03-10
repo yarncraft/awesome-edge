@@ -78,6 +78,7 @@
 * [Rust CoAP](https://github.com/covertness/coap-rs) - A Constrained Application Protocol (CoAP) library implemented in Rust.
 * [OPC-UA](https://opcfoundation.org/) - Interoperability standard for the secure and reliable exchange of data
 * [ModBus](https://modbus.org/) - A data communications protocol for use with Modicon PLC's
+* [Narwhal](http://githuv.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications
 
 ### Brokerless
 * [ZeroMQ Overview](https://zeromq.org/get-started/) - An open-source universal messaging library
