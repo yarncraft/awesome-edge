@@ -72,6 +72,7 @@
 * [VerneMQ](https://github.com/erlio/vernemq) - A distributed MQTT message broker.
 * [Waterstream](https://waterstream.io/) - MQTT broker leveraging Apache Kafka as its own storage and distribution engine.
 * [NanoMQ](https://github.com/nanomq/nanomq) - A light-weight and Blazing-fast MQTT Broker for IoT Edge platform.
+* [Narwhal](https://github.com/narwhal-io/narwhal) - An extensible pub/sub messaging server for edge applications
 
 ### Industrial
 * [Node CoAP](https://github.com/mcollina/node-coap) - A client and server library for CoAP modeled after the http module.
