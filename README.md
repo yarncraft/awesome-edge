@@ -219,6 +219,7 @@
 ### Kubernetes Hybrid
 * [Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/overview) - Azure Arc simplifies governance and management by delivering a consistent multicloud and on-premises management platform.
 * [EKS Anywhere](https://aws.amazon.com/eks/eks-anywhere/) - Create and operate Kubernetes clusters on your own infrastructure
+* [KubeStellar Console](https://console.kubestellar.io) - Open source AI-powered multi-cluster Kubernetes dashboard for hybrid edge and cloud environments. Real-time observability, 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox project. ([Source Code](https://github.com/kubestellar/console))
 
 ### Kubernetes Distributions for Edge
 * [AKS Edge](https://github.com/Azure/AKS-Edge) - AKS Edge Essentials is an on-premises Kubernetes implementation running containers at scale
