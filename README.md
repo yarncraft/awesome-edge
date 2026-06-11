@@ -6,7 +6,6 @@
 
 ## _Table of Contents_
 
-- [_Major IoT Clouds_](#iot-on-hyperscalers)
 - [_Major Edge OSS Projects_](#major-edge-oss-projects)
 - [_Edge Messaging_](#edge-messaging)
     - [Brokerless](#brokerless)
@@ -15,13 +14,8 @@
     - [Industrial](#industrial)
 - [_Message Serialization_](#message-serialization)
 - [_Messaging & Data Streaming_](#messaging-and-data-streaming)
-    - [Cloud Managed](#cloud-managed)
-    - [On-Prem](#on-prem)
 - [_Stream Processing_](#stream-processing)
-    - [Cloud Managed](#cloud-managed-1)
-    - [On-Prem](#on-prem-1)
 - [_Databases_](#databases)
-    - [Cloud Managed](#cloud-managed-2)
     - [Time Series Database](#time-series-database)
     - [Document Database (NoSQL)](#document-database-nosql)
     - [Persistent Key Value DB](#persistent-kv-db)
