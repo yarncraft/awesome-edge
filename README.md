@@ -49,18 +49,12 @@
 
 ---
 
-# _IoT on Hyperscalers_
-* [AWS IoT](https://aws.amazon.com/iot/) - Unlock your IoT data and accelerate business growth
-* [Azure IoT Operations](https://azure.microsoft.com/en-us/products/iot-operations) - Build interoperable IoT solutions that transform physical operations at scale.
-
 # _Major Edge OSS Projects_
 * [Eclipse Ditto](https://github.com/eclipse/ditto) - the open-source project of Eclipse IoT that provides a ready-to-use functionality to manage the state of Digital Twins
 * [Eclipse Hono](https://github.com/eclipse-hono/hono) - provides uniform (remote) service interfaces for connecting large numbers of IoT devices to a (cloud) back end. 
 * [Akri](https://docs.akri.sh/) - Akri is a Kubernetes Resource Interface that lets you easily expose heterogeneous leaf devices
 * [Akraino](https://www.lfedge.org/projects/akraino) - LF Edge is an umbrella organization that establishes an open, interoperable framework for edge computing
 * [Shifu](https://shifu.dev/docs/guides/cases/connect-opcua/) - Shifu provides users with a transparent framework for full-scene device hosting and integrated software development
-
-
 
 
 # _Edge Messaging_
@@ -108,17 +102,6 @@
 
 # _Messaging and Data Streaming_
 
-### Cloud Managed
-* [Azure Event Hub](https://azure.microsoft.com/en-us/products/event-hubs) - a fully managed, real-time data ingestion service that’s simple, trusted, and scalable
-* [Azure Managed Kafka](https://azure.microsoft.com/en-us/products/hdinsight/) - Azure HDInsight, a customizable, enterprise-grade service for open-source analytics. 
-* [Azure Queue Storage](https://azure.microsoft.com/nl-nl/products/storage/queues) -  a service for storing large numbers of messages
-* [Azure Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview) - a highly scalable, serverless event broker that you can use to integrate applications using events.
-* [Confluent Cloud](https://www.confluent.io/confluent-cloud/) - Apache Kafka as a Service
-* [AWS MSK](https://aws.amazon.com/msk/) - Securely stream data with a fully managed, highly available Apache Kafka service
-* [AWS SQS](https://aws.amazon.com/sqs/) - Fully managed message queuing for microservices, distributed systems, and serverless applications
-* [AWS Kinesis](https://aws.amazon.com/kinesis/data-streams/) - Easily stream data at any scale
-
-### On-Prem
 * [Strimzi](https://strimzi.io/) - Cloud Native Apache Kafka
 * [Apache Pulsar](https://github.com/apache/pulsar) - a distributed pub-sub messaging platform with a very flexible messaging model and an intuitive client API.
 * [Apache Kafka](http://kafka.apache.org/) - distributed publish-subscribe messaging system.
@@ -135,12 +118,6 @@
 
 # _Stream Processing_
 
-### Cloud Managed
-* [AWS Kinesis Data Analytics](https://aws.amazon.com/kinesis/data-analytics/) - Gain actionable insights from streaming data with serverless, fully managed Apache Flink
-* [Azure Stream Analytics](https://azure.microsoft.com/en-us/services/stream-analytics/) - Serverless real-time analytics, from the cloud to the edge
-* [KSQL DB](https://ksqldb.io/) - KSQL DB on Confluent Cloud
-
-### On-Prem
 * [Faust](https://github.com/robinhood/faust) - stream processing and event processing in Python
 * [Siddhi](https://github.com/siddhi-io/siddhi) - stream Processing and Complex Event Processing Engine
 * [KSQL](https://github.com/confluentinc/ksql) - The database purpose-built for stream processing applications.
@@ -151,9 +128,6 @@
 * [Apache Beam](https://beam.apache.org/) - Implement batch and streaming data processing jobs that run on any execution engine.
 * [Apache Flink](https://flink.apache.org/) - Stateful Computations over Data Streams
 * [Apache Samza](https://samza.apache.org/) - A distributed stream processing framework
-
-# _Batch Processing / Analytics_
-* [Databricks](https://databricks.com/) - All your data, analytics and AI on one Lakehouse platform
 * [Apache Mahout](https://mahout.apache.org/) - For Creating Scalable Performant Machine Learning Applications
 * [H2O](https://www.h2o.ai/products/h2o/) - The #1 open-source machine learning platform for the enterprise
 * [Apache Drill](https://drill.apache.org/) - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage.
@@ -162,21 +136,6 @@
 
 
 # _Databases_
-
-## Cloud Managed
-* [Azure SQL](https://azure.microsoft.com/en-us/products/azure-sql/database/) - Build apps that scale with managed and intelligent SQL in the cloud
-* [Azure CosmosDB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Fast NoSQL / Graph / Relational database with open APIs for planet scale
-* [Azure PostgreSQL](https://azure.microsoft.com/en-us/services/postgresql/) - Fully managed, intelligent, and scalable PostgreSQL
-* [Azure Data Explorer](https://azure.microsoft.com/en-us/products/data-explorer/) - Fast and highly scalable data exploration service.
-* [AWS Aurora]() - AWS Relational DB
-* [AWS DynamoDB]() -  fast, flexible, and serverless NoSQL database for any scale
-* [AWS DocumentDB]() - Scale JSON workloads with ease using a MongoDB-compatible document database
-* [AWS Keyspaces]() - Run your Apache Cassandra workloads on a scalable, highly available, and managed wide column database service.
-* [AWS Neptune]() - Build applications that work with highly connected datasets using a fast, reliable graph database service.
-* [AWS Ledger]() - Provide transparent, immutable, cryptographically verifiable transaction logs with a fully managed ledger database service.
-* [AWS Timestream]() - Provide transparent, immutable, cryptographically verifiable transaction logs with a fully managed ledger database service.
-
-## On-Prem
 
 ### Time Series Database
 * [InfluxDB](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics
@@ -199,7 +158,6 @@
 * [RocksDB](http://rocksdb.org/) - embeddable persistent key-value store for fast storage based on LevelDB.
 
 ### Relational Database
-* [Citus](https://github.com/citusdata/citus) - Distributed PostgreSQL
 * [Cockroach](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
 * [TiDB](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database
 * [yugabyteDB](https://github.com/YugaByte/yugabyte-db) - open source, high-performance, distributed SQL database compatible with PostgreSQL
@@ -215,11 +173,6 @@
 
 
 # _Industrial IoT with Kubernetes_
-
-### Kubernetes Hybrid
-* [Azure Arc](https://learn.microsoft.com/en-us/azure/azure-arc/overview) - Azure Arc simplifies governance and management by delivering a consistent multicloud and on-premises management platform.
-* [EKS Anywhere](https://aws.amazon.com/eks/eks-anywhere/) - Create and operate Kubernetes clusters on your own infrastructure
-* [KubeStellar Console](https://console.kubestellar.io) - Open source AI-powered multi-cluster Kubernetes dashboard for hybrid edge and cloud environments. Real-time observability, 20+ CNCF integrations, and AI-guided cluster operations. CNCF Sandbox project. ([Source Code](https://github.com/kubestellar/console))
 
 ### Kubernetes Distributions for Edge
 * [AKS Edge](https://github.com/Azure/AKS-Edge) - AKS Edge Essentials is an on-premises Kubernetes implementation running containers at scale
