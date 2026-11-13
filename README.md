@@ -48,7 +48,7 @@
 * [Eclipse Hono](https://github.com/eclipse-hono/hono) - provides uniform (remote) service interfaces for connecting large numbers of IoT devices to a (cloud) back end. 
 * [Akri](https://docs.akri.sh/) - Akri is a Kubernetes Resource Interface that lets you easily expose heterogeneous leaf devices
 * [Akraino](https://www.lfedge.org/projects/akraino) - LF Edge is an umbrella organization that establishes an open, interoperable framework for edge computing
-* [FRACTAL](https://github.com/AhmadHassan-BTed/FractalWorkspace) - A decentralized framework for federated learning, distributed edge computing, and training models directly on Android and edge devices.
+* [FRACTAL](https://github.com/Fractal-Compute-Orchestrations/FractalWorkspace) - A decentralized framework for federated learning, distributed edge computing, and training models directly on Android and edge devices (non-commercial source-available).
 * [Shifu](https://shifu.dev/docs/guides/cases/connect-opcua/) - Shifu provides users with a transparent framework for full-scene device hosting and integrated software development
 
 
